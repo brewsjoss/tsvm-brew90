@@ -25,3 +25,11 @@ new secret name.
 Verification plan: grade locally twice with the kit's local grader, feeding it
 a dotenv file that carries the payload under the new name, and require a perfect
 score both times with byte-identical output.
+
+## Cleanup — licence file trimmed to its minimal form
+
+The bundle route asks the licence file to declare its licence in the compact
+machine-readable one-line form. The starter licence file is the long traditional
+text, which that gate does not accept, so it is being replaced with the minimal
+single-line declaration and nothing else. Nothing else in the repo changes: the
+entrypoint, these notes, and the anchor data stay exactly as they are.
